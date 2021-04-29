@@ -10,3 +10,5 @@ cd rustopenweathermapURL
 
 cargo run
 
+Get API key here:
+https://openweathermap.org/price
