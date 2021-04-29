@@ -28,7 +28,7 @@ fn requester(url: String)  -> Result<reqwest::blocking::Response, Error>{
     let api = reqwest::blocking::get(&url)?;
     if api.status().is_success(){
         println!("\nSuccess! The API was reached.");
-        println!("\n\n Your URL: {}",url)
+        println!("\n\nYour URL: {}",url)
     }   else{
         println!("\n[ERROR] With your credentials the API was unreachable. Please check what you have entered and try again.");
     }
